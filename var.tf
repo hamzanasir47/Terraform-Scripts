@@ -1,5 +1,5 @@
 variable "REGION" {
-  default = "us-east-2"
+  default = "us-east-1"
 }
 
 variable "ZONE" {
@@ -11,4 +11,8 @@ variable "AMIS" {
   default = {
     us-east-2 = "ami-0862be96e41dcbf74"
   }
+}
+
+variable "KEYPAIR" {
+	default = "dove.key"
 }
